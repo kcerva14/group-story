@@ -1,2 +1,3 @@
 Once upon a time, a alien and a cowboy met in a coffee shop.
-When the cowboy sees his alien friend walk in, he waves and signals him to join him.
+The alien walked in looking for a drink, while the cowboy had been waiting around at a table looking for trouble.
+The cowboy realized he hadn't seen the alien around so he called him over thinking it was his first time there.
