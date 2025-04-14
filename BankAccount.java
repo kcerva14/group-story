@@ -15,12 +15,16 @@ public class BankAccount {
     }
 
     public void withdraw(double amount){
-        balance -= amount;
-        transactionHistory.add("Withdrawal: -" + amount);
+        if (balance == 0) {
+            System.out.println("Insufficient funds");
+        } else {
+            balance -= amount;
+            transactionHistory.add("Withdrawal: -" + amount);
+        }
     }
 
     public void deposit(double amount){
-        balance += amount;
+        balance += amount*1.01;
         transactionHistory.add("Deposit: +" + amount);
     }
 }
